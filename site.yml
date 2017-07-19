@@ -1,0 +1,4 @@
+---
+- hosts: all
+  roles:
+    - {role: nginx, version: 1.0.15}
